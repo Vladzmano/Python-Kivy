@@ -78,7 +78,7 @@ class wt_app(MDApp):
     def build(self):
 
         SC = ScreenManager()
-        SC.add_widget(main(name = 'Main_Page'))
+        SC.add_widget(main(name = 'main'))
         self.theme_cls.theme_style = 'Dark'
         self.theme_cls.primary_palette = 'DeepPurple'
 
